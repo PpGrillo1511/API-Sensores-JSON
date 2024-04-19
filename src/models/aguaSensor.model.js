@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
 
 const aguaSensorSchema = new Schema({
-    motionDetected: {
+    nivel: {
         type: Boolean,
         required: true
     },
